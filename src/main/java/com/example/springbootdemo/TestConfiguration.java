@@ -14,6 +14,7 @@ public class TestConfiguration {
     CommandLineRunner testa() {
         return args -> {
             System.out.println("hello = " + args.length);
+            //new changes
         };
     };
 
